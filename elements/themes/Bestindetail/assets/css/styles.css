@@ -457,6 +457,39 @@ div .navbar-fixed-top, div .navbar-fixed-bottom {
 
 
 /* ----------------------- */
+/*		  new code      */
+/* ----------------------- */
+
+.tamIcon{
+	display: block;
+    font-size: 84px;
+    color: #2D2D2D;
+    line-height: 84px;
+}
+
+.align-centerIcon{
+	display: block;
+    text-align: center;
+}
+
+.text-icon{
+	font-weight: 500;
+    margin: 20px 0 14px 0;
+    letter-spacing: -1px;
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif, Arial;
+	text-align: center;
+}
+
+.fondoContainer{
+	background-color: rgba(240, 240, 240, 0.95);
+
+}
+
+
+
+
+/* ----------------------- */
 /*		  SERVICE - 1      */
 /* ----------------------- */
 .ts-service-style-1{margin-top: 60px}
