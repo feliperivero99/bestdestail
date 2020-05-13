@@ -319,18 +319,18 @@ div .navbar-fixed-top, div .navbar-fixed-bottom {
 
 @media (min-width: 1200px) {
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 1170px;
+	  width: 1175px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 970px;
+	  width: 1005px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 750px;
+	  width: 890px;
 	}
 }
 
