@@ -47,6 +47,10 @@
 			background: none !important;
 			padding: 0 !important;
 		}
+
+		b, strong {
+    	font-weight: 500 !important;
+		}
 	</style>
 	<link rel='stylesheet' id='rs-plugin-settings-css' href='elements\plugins\revslider\public\assets\css\settings.css?ver=5.2.5.4' type='text/css' media='all'>
 	<style id='rs-plugin-settings-inline-css' type='text/css'>
@@ -63,6 +67,10 @@
 	<link rel='stylesheet' id='cubeportfolio.min-css' href='css\style\cubeportfolio.min.css?ver=4.9.4' type='text/css' media='all'>
 	<link rel='stylesheet' id='megamenu-css' href='css\style\megamenu.css?ver=4.9.4' type='text/css' media='all'>
 	<link rel='stylesheet' id='styles-css' href='css\style\styles.css?ver=4.9.4' type='text/css' media='all'>
+
+
+	<!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css\mdb.min.css">
 	<!--<link rel='stylesheet' id='custom-css' href='https://bestindetail.com/elements/custom.css?ver=4.9.4' type='text/css' media='all'>-->
 	<link rel='stylesheet' id='alaskaajax-custom-css-css' href='js\admin\admin-ajax.css?action=alaskaajax_enqueue_custom_style_via_ajax&#038;ver=1.0.0.0' type='text/css' media='all'>
 	<link rel='stylesheet' id='js_composer_front-css' href='elements\plugins\js_composer\assets\css\js_composer.min.css?ver=4.12' type='text/css' media='all'>
@@ -82,6 +90,40 @@
 	<!-- Call Now Button 0.3.1 by Jerry Rietveld (callnowbutton.com) -->
 	<style>
 		#callnowbutton {display:none;} @media screen and (max-width:650px){#callnowbutton {display:block; position:fixed; text-decoration:none; z-index:2147483647;width:65px; height:65px; border-radius:80px; border-top:1px solid #2dc62d; border-bottom: 1px solid #006700; bottom:15px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);right:20px;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMDA2NzAwIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) center/50px 50px no-repeat #009900;}}
+	
+	.star {
+	    font-size: 45px;
+	    color: #ffd700;
+		margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.ml-auto, .mx-auto {
+	    margin-left: auto!important;
+	}
+
+	.mr-auto, .mx-auto {
+	    margin-right: auto!important;
+	}
+	.mb-4, .my-4 {
+	    margin-bottom: 1.5rem!important;
+	}
+
+	.mt-5, .my-5 {
+	    margin-top: 3rem!important;
+	}
+
+	.rounded-circle {
+	    border-radius: 50%!important;
+	}
+
+	.font-weight-bold {
+	    font-weight: 700!important;
+	}
+
+	.pb-2, .py-2 {
+	    padding-bottom: .5rem!important;
+	}
 	</style>
 	<script type="text/javascript">
 		(function(url){
@@ -134,7 +176,7 @@
 		body{font-family:Roboto;font-weight:300;font-style:normal;}nav{font-family:Roboto;font-weight:normal;font-style:normal;}h1{font-family:Roboto;font-weight:normal;font-style:normal;}h2{font-family:Roboto;font-weight:normal;font-style:normal;}h3{font-family:Roboto;font-weight:normal;font-style:normal;}h4{font-family:Roboto;font-weight:normal;font-style:normal;}h5{font-family:Roboto;font-weight:normal;font-style:normal;}h6{font-family:Roboto;font-weight:normal;font-style:normal;}.blog-banner{background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:center top;background-image:url('http://alaska.themestudio.net/demo2/wp-content/themes/Bestindetail/assets/images/bg-banner.jpg');}.portfolio-banner{background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:center top;background-image:url('http://alaska.themestudio.net/demo2/wp-content/themes/Bestindetail/assets/images/bg-banner.jpg');}
 	</style>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
-		.vc_custom_1418699243331{margin-bottom: 0px !important;padding-top: 65px !important;}.vc_custom_1471813937314{margin-bottom: 0px !important;padding-top: 80px !important;padding-bottom: 130px !important;background-image: url(img/blue-water-boat.jpg) !important;}.vc_custom_1471683108539{margin-bottom: 0px !important;padding-top: 80px !important;}.vc_custom_1471684793170{margin-top: 80px !important;background-color: #30d5c8 !important;}.vc_custom_1478123516362{margin-bottom: 0px !important;}.vc_custom_1478124967580{margin-top: 65px !important;margin-bottom: 25px !important;}.vc_custom_1478125039404{margin-bottom: 0px !important;}.vc_custom_1471683627527{padding-top: 80px !important;}
+		.vc_custom_1418699243331{margin-bottom: 0px !important;padding-top: 65px !important;}.vc_custom_1471813937314{margin-bottom: 0px !important;padding-top: 80px !important;padding-bottom: 130px !important;background-image: url(img/blue-water-boat.jpg) !important;}.vc_custom_1471683108539{margin-bottom: 0px !important;padding-top: 80px !important;}.vc_custom_1471684793170{margin-top: 80px !important;background-color: #30d5c8 !important;}.vc_custom_1478123516362{margin-bottom: 0px !important;}.vc_custom_1478124967580{margin-top: 65px !important;margin-bottom: 25px !important;}.vc_custom_1478125039404{margin-bottom: 0px !important;}.vc_custom_1471683627527{padding-top: 80px !important;}.vc_custom_1472067244329{padding-top: 60px !important;padding-bottom: 60px !important;background-color: #1e73be !important;}
 	</style>
 	<noscript>
 		<style type="text/css">
@@ -153,12 +195,17 @@
 						<div class="top-social col-sm-4">
 							<div class="social-top">
 								<ul class="social">
-									<li class="bounceIn animated"><a target="_blank" href="http://facebook.com"><i class="fa fa-facebook">
-									</i></a>
+									<li class="bounceIn animated">
+										<a target="_blank" href="https://www.youtube.com/channel/CmTw91ahndM_tcUh9Zp5g1g?view_as=subscriber"><i class="fa fa-youtube"></i>
+										</a>
 									</li>
-									<li class="bounceIn animated"><a target="_blank" href="https://www.instagram.com/m22detailing/"><i class="fa fa-instagram"></i></a>
+									<li class="bounceIn animated">
+										<a target="_blank" href="https://www.facebook.com/M22Detailing/"><i class="fa fa-facebook"></i>
+										</a>
 									</li>
-									<li class="bounceIn animated"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a>
+									<li class="bounceIn animated">
+										<a target="_blank" href="https://www.instagram.com/m22detailing/"><i class="fa fa-instagram"></i>
+										</a>
 									</li>
 								</ul>
 							</div>
@@ -216,7 +263,6 @@
 								<li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490"><a title="Contact" href="contact.html">Contact Us</a>
 								</li>
 							</ul>
-							<!--<div class="navbar-form"><a href="tel:(231) 769-BEST">(231) 769-BEST</a> </div>-->
 						</nav>
 					</div>
 				</div>
@@ -231,7 +277,7 @@
 						<div class="container color-changer" data-color="" data-c-target=".banner-left h1">
 							<div class="banner-left">
 								<h1>About Us</h1>
-								<p>Here are a few things you need to know about M22 Detailing Team.</p>
+								<p style="color: #fff">Here are a few things you need to know about M22 Detailing Team.</p>
 							</div>
 							<div class="breadcrumbs"><a href="index.html">Home</a><i>/</i><i>About Us</i></div>
 						</div>
@@ -401,95 +447,248 @@
 											</div>
 										</div>
 									</div>
-									<hr class="divider-hr  ">
-									<div class="vc_row wpb_row vc_inner vc_row-fluid vc_row-o-equal-height vc_row-flex">
-										<div class="wpb_column vc_column_container vc_col-sm-4">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper">
-													<div class="team-item team-item-style1 text-center  ">
-														<figure>
-															<img alt="" src="img\Noah.jpg">
-															<ul class="social-network list-inline social-network-team"></ul>
-														</figure>
-														<h4>Noah</h4><span> crew leader</span>
-														<p>Noah is currently a crew leader at Best In Detail. He played soccer and graduated from Petoskey High School in 2013. After that he volunteered in Kenya for 5 months as a teacher and working at an orphanage. He is currently a freshman at NMU studying Economics. He enjoys working at BID for the outdoors and the friendly atmosphere in the boating world.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-4">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper">
-													<div class="team-item team-item-style1 text-center  ">
-														<figure>
-															<img alt="" src="img\Ryan.jpg">
-															<ul class="social-network list-inline social-network-team"></ul>
-														</figure>
-														<h4>Ryan</h4><span>Cleaning</span>
-														<p>Ryan is from Hawaii living on the opposite end of the United States. He enjoys mountain biking and cleaning boats for Best In Detail in the summertime. Then he turns to a lot of snowboarding in the winter months. In his future he hopes to receive a degree in Marine Mechanics and own his very own Mastercraft.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-4">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper">
-													<div class="team-item team-item-style1 text-center  ">
-														<figure>
-															<img alt="" src="img\Maci.png">
-															<ul class="social-network list-inline social-network-team"></ul>
-														</figure>
-														<h4> Maci</h4><span>Detailing boats</span>
-														<p>Maci is 23 years old and going to school to achieve a veterinarian technician degree. She would eventually love to become a dog trainer. She loves being outside in the summer and grew up on boats. This is will be her second year at Best in Detail and she enjoys everything about detailing boats!</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+									<!--<hr class="divider-hr  ">-->
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--<div class="bg_parallax  vc_custom_1471684793170">
-				<div class="container">
-					<div class="vc_row wpb_row vc_row-fluid">
-						<div class="wpb_column vc_column_container vc_col-sm-12">
-							<div class="vc_column-inner ">
-								<div class="wpb_wrapper">
-									<div class="ts-CTA">
-										<div class="row">
-											<div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
-												<div class="ts-left-CTA" style="color:#ffffff;">
-													<h2 style="color:#ffffff;">We Are Hiring!</h2>
-													<p>Want to be apart of the <strong>Best in Detail</strong> team? Apply today and we’ll get back to you shortly!</p>
-												</div>
-											</div>
-											<div class="col-lg-5 col-md-5 col-sm-3 col-xs-12">
-												<div class="ts-right-CTA ts-right-CTA-160">	<a class="ts-style-button-cta" style="background:#fd4326;color:#ffffff;border:1px solid #fd4326" href="#">Apply Now</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<script>
-										jQuery(document).ready(function(){
-										  jQuery(".ts-right-CTA-160 a.ts-style-button-cta").hover(function(){
-										    jQuery(".ts-right-CTA-160 a.ts-style-button-cta").css("background","#2a2a2a");
-										    jQuery(".ts-right-CTA-160 a.ts-style-button-cta").css("color","#ffffff");
-										    },function(){
-										    jQuery(".ts-right-CTA-160 a.ts-style-button-cta").css("background","#fd4326");
-										    jQuery(".ts-right-CTA-160 a.ts-style-button-cta").css("color","#ffffff");
-										  });
-										});
-									</script>
+		</div>
+		<div class="bg_parallax  vc_custom_1472067244329">
+			<div class="container">
+				<div class="vc_row wpb_row vc_row-fluid">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class="ts-section-title  text-center" style="color:#eaeaea">
+									<h2 style="color:#ffffff;font-size:30px;">Free Local Estimates And Consultations</h2>
+									<p style="text-align: center;">No matter what the task is there is a good chance <b>M22 Detailing</b> can handle it!
+										<br>Just give us a call today at <strong><a href="tel:231-769-2378">(231) 409-5864</a></strong>
+									</p>
+									<p></p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>-->
+			</div>
 		</div>
+
+		<div class="bg_parallax  vc_custom_1471683108539">
+			<div class="container">
+				<div class="vc_row wpb_row vc_row-fluid">
+					<div class="wpb_column vc_column_container vc_col-sm-12">
+						<div class="vc_column-inner ">
+							<div class="wpb_wrapper">
+								<div class="ts-section-title  text-center" style="color:#737373">
+									<h2 style="color:#252525;font-size:30px;">Testimonials</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Section: Testimonial-->
+    	<div class="container mt-5 wow fadeInLeft" data-delay="0.6">
+        	<!--Section: Content-->
+        	<section class="text-center dark-grey-text">
+          		<!-- Section heading 
+          		<h3 class="font-weight-bold mb-4 pb-2">Testimonials</h3>-->
+        <div class="wrapper-carousel-fix">
+            <!-- Carousel Wrapper -->
+            <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div id="caro1" class="carousel-item active">
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="img\r1.jpg" class="rounded-circle img-fluid" alt="First sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <div class="star">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+
+                    <p>
+                      <i class="fa fa-quote-left"></i> I heard about Daystar
+                      through a mutual friend of mine, he told me about the
+                      benefits and how much money I could save and he referred
+                      me to Anthony. When I hit him up he was really cool people
+                      and easily explained my options and even offered me a free
+                      Consultation. I'm in the process right now to get a modest
+                      4kw system just to heat my pool and save money on my
+                      lighting. Super excited to get the process rolling and I
+                      really appreciate Anthony's professionalism..Thank you I
+                      highly recomend!
+                    </p>
+                    <h4 class="font-weight-bold my-3">Damian B.</h4>
+                    <br>
+                  </div>
+                </div>
+                <!--First slide-->
+                <!--Second slide-->
+                <div id="caro2" class="carousel-item"  style="display:none;">
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="img\r2.png" class="rounded-circle img-fluid" alt="Second sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <div class="star">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+
+                    <p>
+                      <i class="fa fa-quote-left"></i> Daystar Energy was great
+                      to work with. Zero down and zero out of pocket. We have a
+                      locked in monthly solar bill that doesn't increase. They
+                      are knowledgeable and explain all the details. We have
+                      been able to save so much money and I highly recommend!
+                    </p>
+                    <h4 class="font-weight-bold my-3">Leilani V.</h4>
+                    <br>
+                  </div>
+                </div>
+                <!--Second slide-->
+                <!--Third slide-->
+                <div id="caro3" class="carousel-item" style="display:none;">
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="img\r3.png" class="rounded-circle img-fluid" alt="Third sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <!--Review-->
+                    <div class="star">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+
+                    <p>
+                      <i class="fa fa-quote-left"></i> Tony Hodges was my sales
+                      rep and did everything he could to win my business mainly
+                      because I was on the fence about putting solar panels at
+                      my house. He was patient, answered all of my questions and
+                      even answered questions I wasn't thinking about. He was
+                      never pushy and stayed available through out the process.
+                      I remember 2 things that stood out the most; both were at
+                      the beginning and have to do with his commitment to his
+                      business and customers. First time was he answered my
+                      phone call on a Saturday and i could tell he was at some
+                      kind of youth sporting event. Once I realized I tried to
+                      hurry and get off the phone, he assured me that the answer
+                      to my question wouldn't take long, which it didn't maybe 2
+                      minutes. Second time I caught him at home right around
+                      dinner time, I only know this because I heard dishes
+                      clattering, again I tried to brush off the phone and he
+                      yet again assured me the answer would be quick. Will be
+                      referring anyone and everyone I can.
+                    </p>
+                    <h4 class="font-weight-bold my-3">Antonio N.</h4>
+                    <br>
+                  </div>
+                </div>
+                <!--Third slide-->
+
+                <!--Third slide-->
+                <div id="caro4" class="carousel-item" style="display:none;">
+                  <div class="testimonial">
+                    <!--Avatar-->
+                    <div class="avatar mx-auto mb-4">
+                      <img src="img\r2.png" class="rounded-circle img-fluid" alt="Third sample avatar image">
+                    </div>
+                    <!--Content-->
+                    <!--Review-->
+                    <div class="star">
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                      <i class="fa fa-star"> </i>
+                    </div>
+
+                    <p>
+                      <i class="fa fa-quote-left"></i> My rep is Area Manager,
+                      Lauren Bell. She went above and beyond to earn my
+                      business. I began the process using EnergySage. I had 3
+                      contractors bidding for my business to install a massive
+                      22000 kWh system. I was almost ready to pull the trigger
+                      with one of them when I got a call from Lauren. I told her
+                      where I was with the best quote and asked her to beat it.
+                      She called me a little bit later and not only beat it, but
+                      kicked it's butt! She put forward an amazing system with
+                      everything I wanted and then some. Then, to top it off,
+                      she came to the party with a buffet of financing and
+                      payment options. It doesn't stop there. Since my work
+                      keeps me busy, she came to my neighborhood, personally, to
+                      help me get the signatures from my neighbors as required
+                      by my HOA. Amazing. She took the bull by the horns and
+                      walked it through a China shop without a single problem.
+                      No matter how many changes I wanted to make, like adding
+                      two Tesla Powerwalls, she was right there with multiple
+                      options. I've had my system running for 4 months. It even
+                      runs the meter backwards with 2 huge air conditioning
+                      units going at the same time. And just when I thought it
+                      looked like the batteries weren't going to happen, here
+                      comes Lauren with more good news. She never gave up. She
+                      watched for rebates and special financing that made
+                      expensive batteries practically free. If you want a
+                      consummate professional that never gives up no matter what
+                      obstacles get in the way, actually cares about her
+                      customers, answers the phone and text messages at crazy
+                      hours, and will go out of her way to make sure you're
+                      happy, you NEED Lauren Bell of DayStar Energy. You're a
+                      fool to go anywhere else.
+                    </p>
+                    <h4 class="font-weight-bold my-3">Cyrus F.</h4>
+                    <br>
+                  </div>
+                </div>
+                <!--Third slide-->
+              </div>
+              <!--Slides-->
+              <!--Controls-->
+              <a class="carousel-control-prev left carousel-control"  role="button" data-slide="prev" onclick="myFunction(1)">
+                <span class="" aria-hidden="true"></span>
+                
+              </a>
+              <a class="carousel-control-next right carousel-control"  role="button" data-slide="next" onclick="myFunction(2)">
+                <span class="" aria-hidden="true"></span>
+                
+              </a>
+              <!--Controls-->
+            </div>
+            <!-- Carousel Wrapper -->
+          </div>
+        </section>
+        <!--Section: Content-->
+      </div>
+      <!--/Section: Testimonial-->
+		
+
+<!-- Prueba -->
+		
+<!-- fin Prueba -->
+
+
+
+
 		<!-- End / content -->
 		<section class="ts-section-top-footer"></section>
 		<div class="pad_94_100 wdt_100" style="padding:20px !important; max-height:100px; background-color:#30d5c8">	
@@ -633,6 +832,88 @@
 	<script type='text/javascript' src='js\themes\Bestindetail\assets\js\custom.js?ver=1.0.0.0'></script>
 	<script type='text/javascript' src='js\includes\js\wp-embed.min.js?ver=4.9.4'></script>
 	<script type='text/javascript' src='elements\plugins\js_composer\assets\js\dist\js_composer_front.min.js?ver=4.12'></script>
+
+	<script>
+
+
+function myFunction(a) {
+	var to1= document.getElementById("caro1");;
+	var to2= document.getElementById("caro2");;
+	var to3= document.getElementById("caro3");;
+	var to4= document.getElementById("caro4");;
+ 
+	if(to1.classList.contains("active")){
+		to1.classList.remove("active");
+		to1.style.display = "none";
+	
+	if(a == 1){
+		to4.classList.add("active");
+		to4.style.display = "block";
+	}else{
+		to2.classList.add("active");
+		to2.style.display = "block";
+	
+	}
+	
+	
+	return;
+	}
+	
+	if(to2.classList.contains("active")){
+		to2.classList.remove("active");
+		to2.style.display = "none";
+	
+	if(a == 1){
+		to1.classList.add("active");
+		to1.style.display = "block";
+	}else{
+		to3.classList.add("active");
+		to3.style.display = "block";
+	
+	}
+	
+	
+	return;
+	}
+	
+	if(to3.classList.contains("active")){
+		to3.classList.remove("active");
+		to3.style.display = "none";
+	
+	if(a == 1){
+		to2.classList.add("active");
+		to2.style.display = "block";
+	}else{
+		to4.classList.add("active");
+		to4.style.display = "block";
+	
+	}
+	
+	return;
+	}
+	
+	if(to4.classList.contains("active")){
+		to4.classList.remove("active");
+		to4.style.display = "none";
+		
+		
+	if(a == 1){
+		to3.classList.add("active");
+		to3.style.display = "block";
+	}else{
+		to1.classList.add("active");
+		to1.style.display = "block";
+	
+	}
+	
+	return;
+	}
+  
+}
+
+
+</script>
+
 </body>
 
 </html>
