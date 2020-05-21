@@ -7585,6 +7585,11 @@ input[type="submit"] + .btn-default {
   border-color: #fd4236;
   color: #ffffff;
 }
+
+.backgroundzone{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 767px){
 	#bridge .navbar-toggle {
 	  margin-right: 25px;
@@ -7607,5 +7612,9 @@ input[type="submit"] + .btn-default {
 	footer .widget_mc4wp_form_widget input[type="email"] {
 	  max-width: inherit;
 	}
+	
+	.backgroundzone{
+	background-color: transparent !important;
+}
 }
 
