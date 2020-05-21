@@ -103,7 +103,6 @@ a:focus {
   background-size: cover;
   position: relative;
 }
-
 img{
 	max-width: 100%;
 }
@@ -320,18 +319,18 @@ div .navbar-fixed-top, div .navbar-fixed-bottom {
 
 @media (min-width: 1200px) {
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 1170px;
+	  width: 1175px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 970px;
+	  width: 1005px;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 	body div .container, body div .navbar-fixed-top .container, body div .navbar-fixed-bottom .container {
-	  width: 750px;
+	  width: 890px;
 	}
 }
 
@@ -431,13 +430,15 @@ div .navbar-fixed-top, div .navbar-fixed-bottom {
 .main-menu ul > li .dropdown-menu li a{
 	font-size: 14px;
 	font-weight: 300;
-	color: #919191;
+	color: #d4cdcd;
+	
 }
 .main-menu ul > li .dropdown-menu li a:hover,
 .main-menu ul > li .dropdown-menu li.active a,
 .main-menu ul > li .dropdown-menu li a:focus{
 	color: #fd4326;
 	background: none;
+	font-weight: bold;
 }
 .main-menu ul > li .dropdown-menu > li.menu-item-has-children > a:hover:after{
   color: #fd4326;
@@ -455,6 +456,39 @@ div .navbar-fixed-top, div .navbar-fixed-bottom {
 .main-menu ul > li.megamenu-item .dropdown-menu li{
 	border: none;
 }
+
+
+/* ----------------------- */
+/*		  new code      */
+/* ----------------------- */
+
+.tamIcon{
+	display: block;
+    font-size: 84px;
+    color: #2D2D2D;
+    line-height: 84px;
+}
+
+.align-centerIcon{
+	display: block;
+    text-align: center;
+}
+
+.text-icon{
+	font-weight: 500;
+    margin: 20px 0 14px 0;
+    letter-spacing: -1px;
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif, Arial;
+	text-align: center;
+}
+
+.fondoContainer{
+	background-color: rgba(240, 240, 240, 0.95);
+
+}
+
+
 
 
 /* ----------------------- */
@@ -2248,8 +2282,8 @@ footer{
 }
 .ts-copy-right p{
 	margin: 24px 0 14px 0;
-	font-size: 12px;
-	color: #4f4f4f;
+	font-size: 14px;
+	color: white;
 }
 .ts-menu-footer nav{
 	text-align: right;
@@ -7585,11 +7619,6 @@ input[type="submit"] + .btn-default {
   border-color: #fd4236;
   color: #ffffff;
 }
-
-.backgroundzone{
-	background-color: rgba(0, 0, 0, 0.3);
-}
-
 @media (max-width: 767px){
 	#bridge .navbar-toggle {
 	  margin-right: 25px;
@@ -7612,9 +7641,4 @@ input[type="submit"] + .btn-default {
 	footer .widget_mc4wp_form_widget input[type="email"] {
 	  max-width: inherit;
 	}
-	
-	.backgroundzone{
-	background-color: transparent !important;
 }
-}
-
