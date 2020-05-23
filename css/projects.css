@@ -1,0 +1,248 @@
+ #callnowbutton {
+     display: none;
+}
+ .star {
+     font-size: 45px;
+     color: #ffd700;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+ .ml-auto, .mx-auto {
+     margin-left: auto !important;
+}
+ .mr-auto, .mx-auto {
+     margin-right: auto !important;
+}
+ .mb-4, .my-4 {
+     margin-bottom: 1.5rem !important;
+}
+ .mt-5, .my-5 {
+     margin-top: 3rem !important;
+}
+ .rounded-circle {
+     border-radius: 50% !important;
+}
+ .font-weight-bold {
+     font-weight: 700 !important;
+}
+ .pb-2, .py-2 {
+     padding-bottom: 0.5rem !important;
+}
+ .button {
+     background-color: #1e73be;
+    /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 10px;
+}
+/* The Modal (background) */
+ .modal {
+     display: none;
+    /* Hidden by default */
+     position: fixed;
+    /* Stay in place */
+     z-index: 1;
+    /* Sit on top */
+     padding-top: 100px;
+    /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+    /* Full width */
+     height: 100%;
+    /* Full height */
+     overflow: auto;
+    /* Enable scroll if needed */
+     background-color: rgb(0,0,0);
+    /* Fallback color */
+     background-color: rgba(0,0,0,0.4);
+    /* Black w/ opacity */
+}
+/* Modal Content */
+ .modal-content {
+     background-color: #fefefe;
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 40%;
+     text-align: center;
+}
+/* The Close Button */
+ .close {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+ .close:hover, .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+}
+ @media screen and (max-width: 650px) {
+     #callnowbutton {
+         display: block;
+         position: fixed;
+         text-decoration: none;
+         z-index: 2147483647;
+         width: 65px;
+         height: 65px;
+         border-radius: 80px;
+         border-top: 1px solid #2dc62d;
+         border-bottom: 1px solid #006700;
+         bottom: 15px;
+         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+         right: 20px;
+         background: url(data:image/svg+xml;
+        base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMDA2NzAwIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) center/50px 50px no-repeat #009900;
+    }
+     .modal-content {
+         width: 90%;
+    }
+}
+ body {
+     font-family: Roboto;
+     font-weight: 300;
+     font-style: normal;
+}
+ nav {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h1 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h2 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h3 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h4 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h5 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ h6 {
+     font-family: Roboto;
+     font-weight: normal;
+     font-style: normal;
+}
+ .blog-banner {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center top;
+     background-image: url("http://alaska.themestudio.net/demo2/wp-content/themes/Bestindetail/assets/images/bg-banner.jpg");
+}
+ .portfolio-banner {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center top;
+     background-image: url("http://alaska.themestudio.net/demo2/wp-content/themes/Bestindetail/assets/images/bg-banner.jpg");
+}
+ .vc_custom_1463800954520 {
+     margin-bottom: 0px !important;
+}
+ .vc_custom_1478125167761 {
+     margin-bottom: 0px !important;
+     padding-top: 20px !important;
+     background-color: #f9f9f9 !important;
+}
+ .vc_custom_1478122437105 {
+     padding-top: 60px !important;
+     padding-bottom: 60px !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+}
+ .vc_custom_1477928466007 {
+     padding-top: 80px !important;
+     padding-bottom: 60px !important;
+     background-image: url(img/aviation-photo.jpg) !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+}
+ .vc_custom_1472057495920 {
+     padding-top: 80px !important;
+     padding-bottom: 60px !important;
+}
+ .vc_custom_1472067244329 {
+     padding-top: 60px !important;
+     padding-bottom: 60px !important;
+     background-color: #1e73be !important;
+}
+ .vc_custom_1477928291132 {
+     margin-bottom: 0px !important;
+     padding-top: 60px !important;
+     padding-bottom: 60px !important;
+     background-image: url(img/Storage-bg.jpg) !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+}
+ .vc_custom_1463800943366 {
+     margin-bottom: 0px !important;
+}
+ .vc_custom_1477832800351 {
+     margin-bottom: 0px !important;
+}
+ .vc_custom_1478125198992 {
+     margin-top: 75px !important;
+     margin-bottom: 0px !important;
+}
+ .vc_custom_1478125080233 {
+     margin-bottom: 0px !important;
+}
+ .vc_custom_1471976096464 {
+     margin-top: 50px !important;
+}
+ .vc_custom_1473167357652 {
+     margin-top: 60px !important;
+}
+ .vc_custom_1473345538601 {
+     margin-top: 15px !important;
+}
+ .vc_custom_1478733328431 {
+     margin-bottom: 20px !important;
+}
+ .vc_custom_1477931231841 {
+     margin-bottom: -25px !important;
+     padding-top: 50px !important;
+}
+ .vc_custom_1478123074664 {
+     margin-top: 40px !important;
+}
+ .vc_custom_1479038523039 {
+     margin-top: 50px !important;
+}
+ .vc_custom_1471976096464 {
+     margin-top: 50px !important;
+}
+ .vc_custom_1473345622461 {
+     margin-top: 20px !important;
+}
+ .vc_custom_1471683108539{
+     margin-bottom: 0px !important;
+    padding-top: 80px !important;
+}
+ 
